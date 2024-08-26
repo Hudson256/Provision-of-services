@@ -37,7 +37,6 @@ Para instalar e rodar o projeto localmente, siga os passos abaixo:
 1. Clone o repositório:
    ```bash
    git clone https://github.com/Hudson256/provision-of-services.git
-'''
 2. Instale as dependências:
 
 ```bash
