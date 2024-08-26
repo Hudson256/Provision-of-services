@@ -1,27 +1,67 @@
-# FrontEndPrestacaoDeServico
+# Provision of Services
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-## Development server
+Provision of Services é uma aplicação web desenvolvida em Angular, projetada para gerenciar e fornecer diferentes tipos de serviços através de uma interface intuitiva e fácil de usar. Este projeto é escalável e pode ser facilmente deployado usando Docker.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Índice
 
-## Code scaffolding
+- [Sobre o Projeto](#sobre-o-projeto)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Instalação](#instalação)
+- [Uso](#uso)
+- [Contribuição](#contribuição)
+- [Licença](#licença)
+- [Contato](#contato)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Sobre o Projeto
 
-## Build
+Provision of Services é uma plataforma que permite aos usuários explorar, contratar e gerenciar uma variedade de serviços. A aplicação é construída com uma estrutura modular que facilita a adição de novos recursos e a manutenção do código.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Funcionalidades
 
-## Running unit tests
+- Navegação intuitiva entre diferentes serviços.
+- Gestão de serviços através de um painel administrativo.
+- Suporte para deployment usando Docker.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Tecnologias Utilizadas
 
-## Running end-to-end tests
+- **Angular** - Framework para construção de aplicações web dinâmicas.
+- **TypeScript** - Linguagem de programação que adiciona tipagem estática ao JavaScript.
+- **Docker** - Plataforma para desenvolvimento, envio e execução de aplicações em containers.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Instalação
 
-## Further help
+Para instalar e rodar o projeto localmente, siga os passos abaixo:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/Hudson256/provision-of-services.git
+'''
+2. Instale as dependências:
+
+```bash
+cd provision-of-services
+npm install
+```
+
+3.Execute a aplicação:
+```bash
+ng serve
+```
+4.Acesse a aplicação em seu navegador:
+
+```bash
+http://localhost:4200
+```
+## Uso
+Para usar a aplicação, navegue até a interface de serviços e siga as instruções para contratar ou gerenciar um serviço. Para administradores, há um painel de controle dedicado para gerenciar os serviços disponíveis e visualizar relatórios de uso.
+
+## Contribuições
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests. Este projeto segue o padrão de código estabelecido por ESLint e Prettier, então certifique-se de rodar o linter antes de submeter suas alterações.
+
+## Licença
+Este projeto é licenciado sob a licença MIT.
+
+## Contato
+Se você tiver alguma dúvida ou sugestão, entre em contato pelo e-mail: hudsono256@gmail.com.
